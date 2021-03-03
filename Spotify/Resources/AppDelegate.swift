@@ -27,6 +27,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = TabBarViewController()
         window.makeKeyAndVisible()
         self.window = window
+        
+        LogInfo("\(String(describing: AuthManager.shared.signInURL))")
+        AuthManager.shared.refreshAccessTokenIfNeeded { (success) in
+            LogInfo("\(success)")
+        }
+        
         return true
     }
  
