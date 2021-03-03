@@ -29,6 +29,7 @@
 		BA91EC4625ECEB2F00E4518A /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91EC4525ECEB2F00E4518A /* AudioTrack.swift */; };
 		BA91EC4A25ECEB4200E4518A /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91EC4925ECEB4200E4518A /* Artist.swift */; };
 		BA91EC4D25ECEB5200E4518A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91EC4C25ECEB5200E4518A /* UserProfile.swift */; };
+		BA91ECCB25EE152E00E4518A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91ECCA25EE152E00E4518A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		BA91EC4525ECEB2F00E4518A /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		BA91EC4925ECEB4200E4518A /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		BA91EC4C25ECEB5200E4518A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		BA91ECCA25EE152E00E4518A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +104,10 @@
 		BA91EC0725ECDE8E00E4518A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BA91EBFB25ECCAF700E4518A /* Assets.xcassets */,
 				BA91EBF225ECCAF600E4518A /* AppDelegate.swift */,
 				BA91EBF425ECCAF600E4518A /* SceneDelegate.swift */,
-				BA91EBFB25ECCAF700E4518A /* Assets.xcassets */,
+				BA91ECCA25EE152E00E4518A /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -168,8 +171,8 @@
 		BA91EC2025ECE38A00E4518A /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				BA91EC2325ECE3B700E4518A /* AuthViewController.swift */,
 				BA91EC2725ECE3CC00E4518A /* WelcomeViewController.swift */,
+				BA91EC2325ECE3B700E4518A /* AuthViewController.swift */,
 				BA91EC2A25ECE3E600E4518A /* SettingsViewController.swift */,
 				BA91EC2D25ECE3F700E4518A /* ProfileViewController.swift */,
 				BA91EC3025ECE41200E4518A /* PlayerViewController.swift */,
@@ -261,6 +264,7 @@
 				BA91EC2425ECE3B700E4518A /* AuthViewController.swift in Sources */,
 				BA91EBF325ECCAF600E4518A /* AppDelegate.swift in Sources */,
 				BA91EC4D25ECEB5200E4518A /* UserProfile.swift in Sources */,
+				BA91ECCB25EE152E00E4518A /* Extensions.swift in Sources */,
 				BA91EC1B25ECE36900E4518A /* LibraryViewController.swift in Sources */,
 				BA91EC4A25ECEB4200E4518A /* Artist.swift in Sources */,
 				BA91EC3425ECE42900E4518A /* PlaylistViewController.swift in Sources */,
